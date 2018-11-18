@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">密码管家</string>
+    <string name="zhanghao_hint">请输入您的账号</string>
+    <string name="zhanghao">账号</string>
+    <string name="pwd_Text">密码</string>
+    <string name="reg">注册</string>
+    <string name="return_Btn">返回</string>
+    <string name="user">用户名:</string>
+    <string name="pwd">密码:</string>
+    <string name="pwd_c">确认密码:</string>
+    <string name="koul_Enter">输入口令：</string>
+    <string name="getpwd_btn">获取密码</string>
+    <string name="cfm_Button">确定</string>
+    <string name="comfirm">确认</string>
+    <string name="mail">邮箱</string>
+    <string name="register_name_digits">
+      ._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

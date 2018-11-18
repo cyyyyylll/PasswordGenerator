@@ -1,0 +1,5 @@
+<root>
+    <item name='android.media.ImageReader.OnImageAvailableListener'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

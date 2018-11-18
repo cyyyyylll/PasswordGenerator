@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/resetPwd_edit"
+        android:background="@android:drawable/edit_text"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginLeft="30dp"
+        android:ems="10"
+        android:hint="新密码" />
+
+    <EditText
+        android:id="@+id/cmf_resetPwd_edit"
+        android:background="@android:drawable/edit_text"
+        android:layout_width="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="确认新密码" />
+
+</LinearLayout>

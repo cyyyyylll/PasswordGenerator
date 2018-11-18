@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cy.innovationproject.CameraActivity">
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="400dp"
+        android:layout_height="518dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        app:srcCompat="@drawable/bmob_update_btn_check_off_focused_holo_light"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="-11dp" />
+
+</android.support.constraint.ConstraintLayout>
